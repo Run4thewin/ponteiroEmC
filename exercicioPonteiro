@@ -1,0 +1,28 @@
+
+//////////////////////////////////////////////////
+//EXERCICIO 4
+/*Nomes: Gabriel Ferreira*/
+
+
+#include <stdio.h>
+#include <math.h>
+void main(){
+
+    // SET THE VALUE OF VARIAVEL a FOR 2
+    int a = 2;
+
+    // SET THE VALUE OF VARIAVEL a FOR 2
+    int b = 2;
+
+    // GET THE INFORMATION IN MEMORY OF THE a VALUE
+    int *ponta = &a;
+
+
+    // GET THE INFORMATION IN MEMORY OF THE b VALUE
+    int *pontb = &b;
+
+    // SET THE CONTENT OF REFERENCE IN POINT a AND b INTO THE res VARIABLE THEN PRINT IT
+    int res = pow(*ponta + *pontb, 2);
+    printf("%i", res);
+
+}
